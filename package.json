@@ -1,0 +1,27 @@
+{
+  "name": "chat_express_socket_lets_try_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasyl1312/chat_express_socket_lets_try_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasyl1312/chat_express_socket_lets_try_js/issues"
+  },
+  "homepage": "https://github.com/vasyl1312/chat_express_socket_lets_try_js#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
