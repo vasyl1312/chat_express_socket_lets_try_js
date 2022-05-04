@@ -11,6 +11,12 @@ app.get('/', (req, res) => {
 
 app.use(express.static(__dirname + '/assets'))
 
+io.on('connection', (socket) => {
+  socket.on('chat message', (data) => {
+    io.emit('chat message', { message: data.message, name: data.name })
+  })
+})
+
 http.listen(PORT, () => {
   console.log(`Server has started on ${PORT}`)
 })

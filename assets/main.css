@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
 }
+header {
+  padding-bottom: 75px;
+}
 .form {
   position: fixed;
   left: 0;
