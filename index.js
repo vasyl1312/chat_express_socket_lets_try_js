@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 })
 
+app.use(express.static(__dirname + '/assets'))
+
 http.listen(PORT, () => {
   console.log(`Server has started on ${PORT}`)
 })
